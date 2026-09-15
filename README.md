@@ -1,6 +1,6 @@
 # Mounts Bay Roofing website
 
-Static one-page site for Mounts Bay Roofing, Penzance. Live at https://mountsbayroofing.co.uk via GitHub Pages.
+Static one-page site for Mounts Bay Roofing, Penzance. Live at https://surrealsucculents.github.io/mounts-bay-roofing-BETA/ via GitHub Pages until the domain is registered, then at https://mountsbayroofing.co.uk.
 
 ## Files
 
