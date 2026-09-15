@@ -7,7 +7,7 @@ Static one-page site for Mounts Bay Roofing, Penzance. Live at https://mountsbay
 - `index.html`, `styles.css`, `script.js` are the whole site. No build step.
 - `images/` holds the logo and job photos (sourced from the business's Facebook and Instagram pages).
 - `mounts-bay-roofing-10-year-guarantee.pdf` is linked from the guarantee section.
-- `CNAME` tells GitHub Pages which custom domain to serve.
+- `CNAME` (currently absent) tells GitHub Pages which custom domain to serve. Once mountsbayroofing.co.uk is registered, add a file called `CNAME` containing just `mountsbayroofing.co.uk` and push.
 - `serve.js` is a tiny local preview server: `node serve.js 4190`.
 
 ## Deploying
