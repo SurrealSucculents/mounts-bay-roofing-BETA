@@ -204,14 +204,18 @@
           <li><span class="cl">Based in</span>Penzance, Cornwall</li>
         </ul>
       </div>
-      <form class="quote-form" id="quote-form" novalidate>
+      <form class="quote-form" id="quote-form" action="https://formsubmit.co/andrec6@icloud.com" method="POST" novalidate>
         <h3>Request a call back</h3>
+        <input type="hidden" name="_subject" value="Quote request from the website">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <label>Your name<input type="text" name="name" autocomplete="name" required></label>
         <label>Phone number<input type="tel" name="phone" autocomplete="tel" required></label>
         <label>Where's the property?<input type="text" name="location" placeholder="e.g. Newlyn" autocomplete="address-level2"></label>
         <label>What does the roof need?<textarea name="message" rows="4" placeholder="e.g. A few slates have slipped after the storm and there's a damp patch in the back bedroom."></textarea></label>
         <button class="btn btn-gold" type="submit">Send request</button>
-        <p class="form-note">This opens your email app with the details filled in. Or just call us, that's quicker.</p>
+        <p class="form-note" id="form-note" role="status" aria-live="polite">We'll call you back to arrange a visit.</p>
       </form>
     </div>
   </section>
