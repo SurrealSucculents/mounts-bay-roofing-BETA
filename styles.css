@@ -149,8 +149,3 @@ p { margin: 0 0 1em; }
   .sticky-call svg { width: 22px; height: 22px; fill: currentColor; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn, .card, .gallery img { transition: none; } }
-.quote-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
-.quote-form { position: relative; }
-.quote-form.sent label, .quote-form.sent .btn { display: none; }
-.quote-form.sent .form-note { font-size: 1rem; color: var(--navy); font-weight: 700; }
-.quote-form .form-note.error { color: #c0392b; }
